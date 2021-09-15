@@ -2,11 +2,11 @@
 
 body {
     background-color: #000000;
-    font-family:'Times New Roman', 'Sans Serif';
+    font-family:'Times New Roman', sans-serif;
     color: #ffffff;
 }
 
-body h1 {
+h1 {
     font-size: 64px;
     text-align: center;
     padding: 10px;
@@ -14,7 +14,7 @@ body h1 {
 
 h2 {
     font-size: 32px;
-    text-shadow: -4px 4px 2px #808080;
+    text-shadow: 4px 4px 2px #808080;
 }
 
 p {
@@ -30,7 +30,7 @@ img {
 }
 
 div {
-    top: 150px;
+    min-height: 150px;
     padding: 25px
 }
 
@@ -47,11 +47,11 @@ div {
 #yellow {
     background-color: #ffff00;
     text-align: right;
-    color: #000000!important;
+    color: #000000;
 }
 
 h2#yellow {
-    text-shadow: -4px 4px 2px #c7e2c7!important;
+    text-shadow: -4px 4px 2px #c7e2c7;
 }
 
 #green {
@@ -59,10 +59,10 @@ h2#yellow {
     text-align: left;
 }
 
-footer {
+footer p{
     text-align: center;
-    padding-bottom: 10px!important;
-    padding-right: 10px!important;
+    padding-bottom: 10px;
+    padding-right: 10px;
 
 }
 
